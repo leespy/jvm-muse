@@ -1,0 +1,10 @@
+Java HotSpot(TM) 64-Bit Server VM (25.192-b12) for bsd-amd64 JRE (1.8.0_192-b12), built on Oct  6 2018 09:36:52 by "java_re" with gcc 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)
+Memory: 4k page, physical 8388608k(126900k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:InitialHeapSize=134217728 -XX:MaxHeapSize=2147483648 -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+TraceClassLoading -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseParallelGC 
+0.179: [GC (System.gc())  3331K->760K(125952K), 0.0011640 secs]
+0.180: [Full GC (System.gc())  760K->572K(125952K), 0.0055759 secs]
+0.288: [GC (System.gc())  1903K->636K(125952K), 0.0011307 secs]
+0.289: [Full GC (System.gc())  636K->542K(125952K), 0.0054010 secs]
