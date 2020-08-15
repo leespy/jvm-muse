@@ -5,7 +5,9 @@ package day1;
  * Author muse
  */
 public class Student {
+
     private String name;
+
     public void setName(String name) {
         this.name = name;
     }
@@ -13,8 +15,13 @@ public class Student {
     public String getName() {
         return this.name;
     }
+
     public static void main(String[] args) {
         Student student1 = new Student();
         student1.setName("muse");
+    }
+
+    public void print() {
+        System.out.println("name=" + name);
     }
 }
