@@ -24,7 +24,7 @@ public class TestRetry {
     }
 
     public static void case1() {
-        System.out.println("-------------case1 forall---------------");
+        System.out.println("-------------case1 for all---------------");
         for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 4; j++) {
                 System.out.println("batchNums=" + i + " nums=" + j);
