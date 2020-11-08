@@ -1,7 +1,8 @@
 package day1;
 
 /**
- * Date 2020/8/9 11:58 上午
+ * 输出内存信息
+ *
  * Author muse
  */
 public class HeapAlloc {

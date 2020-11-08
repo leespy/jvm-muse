@@ -2,9 +2,7 @@ package day1;
 
 /**
  * 死去活来的对象
- *
  * <p>
- * Date 2020/8/3 10:21 上午
  * Author muse
  */
 public class DieAliveObject {
@@ -34,6 +32,7 @@ public class DieAliveObject {
 
     /**
      * finalize只会被调用一次，给对象唯一一次重生的机会
+     *
      * @throws Throwable
      */
     @Override

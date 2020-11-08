@@ -4,7 +4,8 @@
 package day2;
 
 /**
- * Date 2020/9/3 3:29 下午
+ * 无线循环
+ *
  * Author muse
  */
 public class EndlessLoop {

@@ -5,6 +5,8 @@ package day1;
 
 /**
  * 局部变量表GC和槽位复用
+ *
+ * Author muse
  */
 public class LocalValueGC {
 

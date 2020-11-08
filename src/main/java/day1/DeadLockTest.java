@@ -3,7 +3,6 @@ package day1;
 /**
  * 线程死锁
  * <p>
- * Date 2020/8/13 6:26 下午
  * Author muse
  */
 public class DeadLockTest {

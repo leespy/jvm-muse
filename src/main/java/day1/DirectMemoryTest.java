@@ -6,8 +6,7 @@ import java.util.List;
 
 /**
  * 直接内存泄漏 -XX:+PrintGCDetails
- *
- * Date 2020/8/11 8:49 上午
+ * <p>
  * Author muse
  */
 public class DirectMemoryTest {
@@ -18,7 +17,7 @@ public class DirectMemoryTest {
 //            if (num >= 100) {
 //                break;
 //            }
-            ByteBuffer.allocateDirect(1*1024*1024);
+            ByteBuffer.allocateDirect(1 * 1024 * 1024);
             // System.out.println("num=" + num++);
         }
 
@@ -27,7 +26,7 @@ public class DirectMemoryTest {
 //            if (num >= 20) {
 //                break;
 //            }
-//            total.add(ByteBuffer.allocateDirect(2000*1024*1024));
+//            total.add(ByteBuffer.allocateDirect(2000 * 1024 * 1024));
 //            System.out.println("num=" + num++);
 //        }
     }

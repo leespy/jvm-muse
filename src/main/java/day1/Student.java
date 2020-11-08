@@ -1,7 +1,8 @@
 package day1;
 
 /**
- * Date 2020/8/5 9:11 上午
+ * 学生实体
+ *
  * Author muse
  */
 public class Student {

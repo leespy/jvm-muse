@@ -32,7 +32,6 @@ public class TestRetry {
         }
     }
 
-    // 跳出本次循环体
     public static void case2() {
         System.out.println("-------------case2 break---------------");
         for (int i = 0; i < 2; i++) {
@@ -45,7 +44,6 @@ public class TestRetry {
         }
     }
 
-    // 跳出本次循环
     public static void case3() {
         System.out.println("-------------case3 continue---------------");
         for (int i = 0; i < 2; i++) {
@@ -58,7 +56,6 @@ public class TestRetry {
         }
     }
 
-    // 实现break功能
     public static void case4() {
         System.out.println("-------------case4 continue+retry---------------");
         retry:
@@ -72,7 +69,6 @@ public class TestRetry {
         }
     }
 
-    // 直接跳出两层循环
     public static void case5() {
         System.out.println("-------------case5 break+retry---------------");
         retry:
@@ -86,7 +82,6 @@ public class TestRetry {
         }
     }
 
-    // 实这个retry标识符不是指定的，只要任意符合Java变量命名的标识符都可以，只要后面接上英文冒号就行了
     public static void case6() {
         System.out.println("-------------case6 break+muse---------------");
         muse:

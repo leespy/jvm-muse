@@ -6,7 +6,6 @@ import java.util.List;
 /**
  * 设置最大堆内存-Xmx10M，造成OutOfMemoryError异常
  * <p>
- * Date 2020/8/5 8:49 上午
  * Author muse
  */
 public class OutOfMemoryTest {

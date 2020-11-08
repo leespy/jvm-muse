@@ -3,7 +3,8 @@ package day1;
 import java.lang.ref.SoftReference;
 
 /**
- * Date 2020/8/3 9:21 下午
+ * 软引用
+ *
  * Author muse
  */
 public class SoftReferenceTest {

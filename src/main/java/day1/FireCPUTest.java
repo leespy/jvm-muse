@@ -4,7 +4,8 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
 /**
- * Date 2020/8/10 1:09 上午
+ * 燃烧cpu
+ *
  * Author muse
  */
 public class FireCPUTest {

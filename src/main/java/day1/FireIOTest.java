@@ -8,7 +8,8 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
 /**
- * Date 2020/8/10 1:40 上午
+ * 燃烧io
+ *
  * Author muse
  */
 public class FireIOTest {
