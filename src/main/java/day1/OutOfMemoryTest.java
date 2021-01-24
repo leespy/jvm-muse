@@ -21,7 +21,7 @@ public class OutOfMemoryTest {
             if (num >= 1000) {
                 break;
             }
-            total.add(new byte[1 * 1000 * 1000]);
+            total.add(new byte[1 * 1000 * 1000]); // 1M
             num++;
         }
     }
